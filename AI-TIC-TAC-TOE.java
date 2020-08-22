@@ -126,7 +126,7 @@ class TicTacToe{
 		int toss=rand.nextInt(2);
 		if(toss==0){System.out.println("I won the toss");
 		
-	     Point c=new Point(2,2);//new Point(rand.nextInt(3),rand.nextInt(3));
+	     Point c=new Point(rand.nextInt(3),rand.nextInt(3));
 	     b.placeElement(c,"O");
 	    
 	     }else{System .out.println("You Won The toss :");}
